@@ -1,0 +1,70 @@
+:root {
+  --bg-primary: #F8F6F0;
+  --bg-secondary: #F1EFE8;
+  --bg-card: #FFFFFF;
+  --bg-soft: #F5F3EC;
+
+  --text-primary: #243028;
+  --text-secondary: #5F665F;
+  --text-muted: #7A8079;
+
+  --title-primary: #1E4F91;
+  --title-dark: #163E70;
+
+  --border-color: #DDD9CD;
+
+  --pasundan-green: #2F5D3A;
+  --pasundan-green-dark: #24482D;
+  --pasundan-green-light: #E8F0E9;
+
+  --wood-brown: #795548;
+  --wood-brown-light: #EFE5DC;
+
+  --gold: #B89545;
+  --gold-light: #F5EED7;
+
+  --shadow-soft: 0 4px 18px rgba(60, 50, 30, 0.08);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page-title,
+.section-title,
+.card-title,
+.feature-title {
+  color: var(--title-primary);
+}
+
+.page-title {
+  color: var(--title-dark);
+}
+
+.subtitle,
+.section-subtitle {
+  color: var(--text-secondary);
+}
+
+.font-heritage {
+  font-family: 'Playfair Display', serif;
+}
+
+.card,
+.panel,
+.section,
+.content-card,
+.info-card,
+.feature-card,
+.result-card,
+.glass-panel {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-soft);
+}
